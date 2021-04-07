@@ -38,7 +38,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width: 100%;
-    border:1px solid gray;
+    
 }
 /*General STyles*/
 html{
@@ -69,6 +69,7 @@ nav a{
     width:10%;
     color:#fff;
     text-decoration:none;
+    text-align:center;
 }
 .orange{
 background-color:#FF764E;
@@ -102,6 +103,50 @@ margin-right:10%;
     padding:4%;
     line-height:1;
     position:absolute;
-    bottom:20%;
+    bottom:10%;
     
+}
+h2{
+    font-size:1.4rem;
+    padding:4%;
+}
+p{
+    font-size:1.8rem;
+    padding:2%;
+}
+.sub{
+    background-color:#DDB9A3;
+    width:90%;
+    margin: 0 auto;
+    background-position: center;
+    padding: 1% 2%;
+}
+.warning1{
+    width:40%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.res{
+    width:40%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+.imgcont1 {
+    border:.20rem;
+    height: 30vh;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom:%;
+}
+footer {
+  background-color:#F9E7DC;
+    
+    
+
 }
