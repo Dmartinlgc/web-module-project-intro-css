@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -85,13 +85,18 @@ h1 {
     font-family: 'Chelsea Market', cursive; 
     font-size:6rem;
 }
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.8rem;
+    padding: 5px;
+}
 .top-img{
     width:1%;
 }
- img {
+ .promo{
 border-radius:50%;
-width:55%;
-margin-left:10%;
+width:65%;
+margin-right:15%;
 
 text-align:center;
 }
@@ -109,12 +114,10 @@ text-align:center;
     width:65%;
     line-height:2;
     /* position:absolute; */
-    /* bottom:10%; */
+    bottom:10%;
     
 }
-.info h1{
-    font
-}
+
 .info p{
     font-size: 1.8rem;
     text-align:center;
@@ -122,15 +125,48 @@ text-align:center;
 }
 .overview{
     background-color:#DDB9A3;
-    width:90%;
+    width:80%;
     margin: 0 auto;
     background-position: center;
-    padding: 5% 2%;
+    padding: 2% 2%;
+    margin-top: 4%;
 }
 .overview p{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color:white;
+    margin-top:8px;
 }
 p{
-    padding: 10px;;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;;
+}
+span{
+    font-weight: bold;
+}
+.warning{
+    margin-bottom: 10%;
+    width:40%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+.warning img{
+    margin-top:4%;
+}
+.reservations{
+    margin-bottom: 10%;
+    width:40%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+.image-container{
+    border:.20rem;
+    height: 30vh;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color:#F9E7DC;
 }
